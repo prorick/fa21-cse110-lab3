@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Foodie Roomie Page</title>
+        <meta name="author" content="Prothit Halder">
+        <meta name="description" content="Foodie Roomie">
+        <meta name="keywords" content="HTML">
+        <link rel="icon" type="image/x-icon" href="favicon1.ico">
+
+
+    </head>
+    <body>
+        <header> 
+            <nav>
+                <h1> Foodie Roomie! </h1> 
+                <ul>
+                  <li><a href="#ubus">Unfinished Business</a></li>
+                  <li><a href="#nbus">New Business</a></li>
+                  <li><a href="#misc">Misc</a></li>
+                </ul>
+
+                
+              </nav>
+
+              <img
+        src="Sunset-Sushi-3.jpeg"
+        alt="food"
+        width=500
+      />
+            
+            
+        </header>
+        
+        <main>
+            <h2> Topic of Meeting: Brainstorming... </h2>
+            <h3> 10/1/2021 </h3>
+
+            <h4>Attendance List</h4>
+            <ul>
+                <li>Prothit</li>
+                <li>Natalie</li>
+                <li>Ethan</li>
+                <li>Andrew</li>
+             </ul>
+
+             
+
+        </main>
+
+        <section>
+            <h3>Agenda</h3>
+            <p> There are <span>4</span> items on our agenda <strong>today!</strong></p>
+            <ol>
+                <li>Introductions</li>
+                <li>Brainstorming</li>
+                <li>Outlining</li>
+                <li>Goals for Next Meeting</li>
+             </ol>
+        </section>
+
+        <section>
+            <h3 id="ubus">Unfinished Business</h3>
+            <div>Determining the website name</div>
+            <div>Scheduling meetings</div>
+
+            <hr>
+
+            <h3 id="nbus"> New Business </h3>
+            <ul>
+                <li>Theme for the website</li>
+                <li>Determine color <b>palette</b> for website</li>
+                <li>Assign tasks</li>
+             </ul>
+
+             <hr>
+
+             <h3 id="misc"> Misc </h3>
+             <p>Some <i>top</i> restaurants around <em>San Diego</em> include: The Crack Shack, Tacos El Gordo, Trust, The Taco Stand, Tajima.
+            
+                Restaurants with good <em>happy hours</em>: International Smoke, Dirty Bird.
+
+                Ethan had a concern about whether the website name should change.
+
+                Prothit came up with a starter palette for the website:
+            </p>
+            <img src="palettelab2.png" alt="palette" width=250/>
+
+            <h4>Meeting Audio</h4>
+            <audio
+                controls
+                src="LAB2CSE110.m4a">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+
+            <h4>Meeting Video</h4>
+            <video controls width="250">
+
+                <source src="Lab2videoCSE110.mov"
+                        type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+
+
+            <h4>Learn about food options at UCSD</h4>
+            <details>
+                <summary><b>UCSD FOOD</b></summary>
+                Plant Power, Blue Bowl, TacoVilla, Panda Express
+            </details>
+
+            <h4>What's your NAME?</h4>
+            <form>
+                <input type="text" placeholder="Enter Name" />
+                <button>Submit</button>
+            </form>
+
+            <h4>SUSHI V TACO V SALAD:</h4>
+            <form>
+                <fieldset>
+                  <legend>Choose your favorite foods</legend>
+              
+                  <input type="radio" id="sushi" name="sushi">
+                  <label for="sushi">Sushi</label><br/>
+              
+                  <input type="radio" id="taco" name="taco">
+                  <label for="taco">Taco</label><br/>
+              
+                  <input type="radio" id="salad" name="salad">
+                  <label for="salad">Salad</label>
+                </fieldset>
+              </form>
+
+              <h4>Places To Try:</h4>
+              <div>
+                <input type="checkbox" id="place" name="CAVA">
+                <label for="place">CAVA</label>
+                <input type="checkbox" id="coffee" name="Philz">
+                <label for="coffee">Philz</label>
+                <input type="checkbox" id="poke" name="Poke 1/2">
+                <label for="poke">Poke 1/2</label>
+              </div>
+
+
+            <h4>Date Fun:</h4>
+            <label>Start date at UCSD:</label>
+            <input type="date" id="start" name="trip-start" value="2021-10-01" min="2018-01-01" max="2026-12-31">
+            
+            <h4>Name your Favorite Restaurants:</h4>
+            <label for="story">Tell us your fav restaurants:</label>
+            <textarea id="story" name="story" rows="5" cols="25">Ocean View Terrace...</textarea>
+
+            <h4>KFC TIME:</h4>
+            <label for="kfc-choices">Choose a Korean Fried Chicken flavor:</label>
+            <input list="kfc-flavors" id="kfc-choices" name="kfc-choices" />
+
+            <datalist id="kfc-flavors">
+                <option value="Soy Garlic">
+                <option value="Gochujang">
+                <option value="Plain">
+                <option value="Red Hot">
+                <option value="Golden Sparkling">
+            </datalist>
+
+            <h4>Choose YOUR FAV Meat for TACOS:</h4>
+            <label for="taco-select">Choose a meat:</label>
+            <select name="tacos" id="taco-select">
+                <option value="">--Please choose an option--</option>
+                <option value="alpastor">Al Pastor</option>
+                <option value="carne">Carne Asada</option>
+                <option value="pollo">Pollo</option>
+                <option value="Pescado">Pescado</option>
+                <option value="tripe">Tripe</option>
+                <option value="Carnita">Carnita</option>
+            </select>
+
+
+            
+                    
+
+
+
+           
+        </section>
+
+
+        <footer>
+            <p>© 2021 Prothit</p>
+        </footer>
+    </body>
+</html>
