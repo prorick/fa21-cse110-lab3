@@ -201,11 +201,11 @@ body {
     background-color: aliceblue;
   }
   
-  li {
+  ul li {
     list-style-type: square;
   }
   
-  li li {
+  ul li li {
     list-style-type: circle;
   }
 
@@ -215,4 +215,9 @@ body {
 
   p ~ span {
     color: #9796F0;
+  }
+
+  h4.love {
+      color:#FF1493;
+      font-weight: bold;
   }
