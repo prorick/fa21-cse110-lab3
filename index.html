@@ -6,15 +6,14 @@
         <meta name="description" content="Foodie Roomie">
         <meta name="keywords" content="HTML">
         <link rel="icon" type="image/x-icon" href="favicon1.ico">
+        <link rel="stylesheet" href="styles.css">
 
         <style>
             body{
+                 /* Linear Gradient to make background look pretty. */
                 background: linear-gradient(90deg, #FFAFBD 0%, #FFC3A0 100%);
             }
-            header{
-                 /* Linear Gradient to make background look pretty. */
-                background-color: rgba(238, 137, 255, 0.45);;
-            }
+            
         </style>
 
 
@@ -22,7 +21,7 @@
     <body>
         <header> 
             <nav>
-                <h1 style="color: navy;text-align:center;font-family:'Helvetica Neue';font-style: normal;font-weight: bold;font-size: 36px;line-height: 42px;"> Foodie Roomie! </h1> 
+                <h1 style="color: navy;text-align:center;font-weight: bold;font-size: 36px;line-height: 42px;"> Foodie Roomie! </h1> 
                 <ul>
                   <li><a href="#ubus">Unfinished Business</a></li>
                   <li><a href="#nbus">New Business</a></li>
@@ -31,12 +30,17 @@
 
                 
               </nav>
-
-              <img
-        src="Sunset-Sushi-3.jpeg"
-        alt="food"
-        width=500
-      />
+              <div style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;">
+                <img
+                src="Sunset-Sushi-3.jpeg"
+                alt="food"
+                width=500
+                />
+            </div>
+              
             
             
         </header>
@@ -47,13 +51,21 @@
 
             <h4>Attendance List</h4>
             <ul>
-                <li>Prothit</li>
+                <li>Prothit
+                    <ul>
+                        <li>Team Name</li>
+                        <li>Website Name</li>
+                    </ul>
+
+                </li>
+
+                
                 <li>Natalie</li>
                 <li>Ethan</li>
                 <li>Andrew</li>
              </ul>
 
-             
+             <div class="box px">Team Leader Prothit</div>
 
         </main>
 
@@ -70,8 +82,9 @@
 
         <section>
             <h3 id="ubus">Unfinished Business</h3>
-            <div>Determining the website name</div>
-            <div>Scheduling meetings</div>
+
+            <div class="disp">Determining the website name</div>
+            <div class="dispa">Scheduling meetings</div>
 
             <hr>
 
@@ -92,6 +105,11 @@
                 Ethan had a concern about whether the website name should change.
 
                 Prothit came up with a starter palette for the website:
+
+                <a href="https://www.linkedin.com/in/prothit/">My LinkedIn link will turn Green while you click on it.</a>
+
+                <a href="https://ucsd.edu">Link to ucsd.edu.</a>
+
             </p>
             <img src="palettelab2.png" alt="palette" width=250 />
 
@@ -117,12 +135,14 @@
                 <summary><b>UCSD FOOD</b></summary>
                 Plant Power, Blue Bowl, TacoVilla, Panda Express
             </details>
-
-            <h4>What's your NAME?</h4>
-            <form>
-                <input type="text" placeholder="Enter Name" />
-                <button>Submit</button>
-            </form>
+            
+            <div class="box rox">
+                <h3>What's your NAME?</h3>
+                <form>
+                    <input type="text" placeholder="Enter Name" />
+                    <button>Submit</button>
+                </form>
+            </div>           
 
             <h4>SUSHI V TACO V SALAD:</h4>
             <form>
@@ -141,12 +161,12 @@
               </form>
 
               <h4>Places To Try:</h4>
-              <div>
+              <div class="box chox">
                 <input type="checkbox" id="place" name="CAVA">
                 <label for="place">CAVA</label>
                 <input type="checkbox" id="coffee" name="Philz">
                 <label for="coffee">Philz</label>
-                <input type="checkbox" id="poke" name="Poke 1/2">
+                <input type="checkbox" id="poke" name="Poke">
                 <label for="poke">Poke 1/2</label>
               </div>
 
@@ -182,6 +202,40 @@
                 <option value="tripe">Tripe</option>
                 <option value="Carnita">Carnita</option>
             </select>
+
+
+            <article class="llama">
+                <span>First</span>
+                <span>Second</span>
+                <span>Third</span>
+            </article>
+            <article class="drama">
+                <span>Good</span>
+                <span>Better</span>
+                <span>Best</span>
+            </article>
+
+            <div id="flex-container">
+                <div class="flex-item" id="flex"> Box for Flex</div>
+                <div class="raw-item" id="raw"> the YUM box</div>
+                <div class="raw-item" id="raw"> the Misss third box</div>
+            </div>
+
+            <div class="gridr">
+                <div class="item-a" id="gridr"> Box1</div>
+                <div class="item-b" id="gridr"> Box2</div>
+                <div class="item-c" id="gridr"> Box3</div>
+                <div class="item-d" id="gridr"> Box4</div>
+            </div>
+
+            <div class="med">Watch this element as you resize your viewport's width.</div>
+
+            <p>Here is a paragraph.</p>
+            <span>And here is Purple!</span>
+            <p> Keep Smiling. </p>
+            <span>General sibling combinator!</span>
+
+
 
 
             
